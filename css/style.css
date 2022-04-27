@@ -1,240 +1,234 @@
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        p {
-            margin: 0;
-        }
-        
-        ul,
-        li {
-            list-style-type: none;
-        }
-        
-        a {
-            text-decoration: none;
-        }
-        
-        .container {
-            width:  88%;
-            margin: 0 auto;
-            padding-left: 9px;
-        }
-        
-        .banner {
-            background-color: black;
-        }
-        
-        .main-class  {
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            padding-bottom: 109px;
-        }
-        
-        
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width:  88%;
+    margin: 0 auto;
+    padding-left: 9px;
+}
+
+.banner {
+    background-color: black;
+}
+
+.main-class  {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 109px;
+}
+
+
 .main-class img {
     height: 500px;
     width: 500px;
     padding-left: 19%;
     /* padding-left: 190PX; */
 }
-        .bannercontent {
-            color: #e7d2bb;
-            font-family: poppins;
-        }
-     
-        
-        h3 {
-            font-size: 30px;
-            font-weight: bold;
-        }
-        
-        .GMT {
-            font-size: 72px;
-        }
-        
-        h4 {
-            font-size: 25px;
-        }
-        /*
-.container2 {
+.bannercontent {
+    color: #e7d2bb;
+    font-family: poppins;
+}
+
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.GMT {
+    font-size: 72px;
+}
+
+h4 {
+    font-size: 25px;
+}
+/* header start*/
+
+header {
+    background: #000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .menu-list ul {
+    display: flex;
+}
+
+.menu .menu-list ul li a {
+    text-transform: capitalize;
+    font-size: 17px;
+    padding-right: 40px;
+    color: #fff;
+}
+/* header end */
+
+section.features {
+    padding: 70px 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.content {
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+    margin-top: 95px;
+}
+
+.content h1 {
     font-size: 60px;
     font-family: poppins;
-   
-}*/
-        /* header start*/
-        
-        header {
-            background: #000;
-        }
-        
-        .menu {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .menu .menu-list ul {
-            display: flex;
-        }
-        
-        .menu .menu-list ul li a {
-            text-transform: capitalize;
-            font-size: 17px;
-            padding-right: 40px;
-            color: #fff;
-        }
-        /* header end */
-        
-        section.features {
-            padding: 70px 0;
-            width: 100%;
-        }
-        
-        .container {
-            width: 100%;
-            /* margin: 0 auto; */
-        }
-        
-        .content {
-            display: inline-block;
-            width: 39%;
-            vertical-align: top;
-            margin-top: 95px;
-        }
-        
-        .content h1 {
-            font-size: 60px;
-            font-family: poppins;
-        }
-        
-        .content p {
-            line-height: 27px;
-            width: 74%;
-            padding-top: 16px;
-            text-transform: capitalize;
-            color: #333333;
-        }
-        
-        h5.contentDETAILS {
-            font-size: 18px;
-            font-family: poppins;
-            color: #707070;
-        }
-        
-        .watches {
-            display: inline-block;
-            width: 59%;
-            vertical-align: top;
-        }
-        
-        .watchimages {
-            display: flex;
-            line-height: 50px;
-        }
-        
-        .watchfeatures img:hover {
-            stop-opacity: inherit;
-            transform: scale(2.0);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            background: white;
-        }
-        
-        .content p {
-            line-height: 27px;
-            width: 74%;
-            padding-top: 16px;
-            text-transform: capitalize;
-            color: #333333;
-        }
-        
-        .mainwatch img {
-            width: 500px;
-            height: auto;
-        }
-        
-        .watchfeatures img {
-            height: 80px;
-            width: 70px;
-            border: 2px solid rgb(0, 0, 0);
-        }
-        .modelimg img {
-            width:35%;
-           
-        }
-        
-        .watchfeatures img .img3:hover .img2 {
-            display: none;
-        }
-        
-        .button {
-            margin-left: 136px;
-        }
-        
-        .button .button1 {
-            padding: 8px 15px;
-            margin-right: 7px;
-            background: #fff;
-            color: #000;
-            font-weight: 900;
-            font-size: 20px;
-            border: 2px solid #000;
-            font-family: poppins;
-        }
-        
-        .button .button1:hover {
-            background: #000;
-            color: #fff;
-        }
-        
-        .Gallery {
-            font-size: 30px;
-            font-family: poppins;
-            margin-left: 12px;
-        }
-        
-        .modelimg {
-            display: flex;
-            width: 100%;
-        }
-        
-        .footermain {
-            display: flex;
-            justify-content: space-around;
-            font-family: poppins;
-            background: #000;
-            color: rgb(218, 218, 218);
-            text-align: justify;
-            line-height: 35px;
-            padding: 40px 0;
-            letter-spacing: 0.7px;
-        }
-        
-        .footermain .footerfour ul .footeremail {
-            padding: 10px 14px;
-            border-radius: 19px;
-            border: none;
-        }
-        
-        .footermain a {
-            color: #fff;
-        }
-        
-        .footermain .footerfour ul li button {
-            text-transform: capitalize;
-            font-size: 16px;
-            padding: 5px 13px;
-            border-radius: 3px;
-            background: #000;
-            color: #fff;
-            border: 1px solid #fff;
-            margin-top: 16px;
-        }
-        
-        .footermain .footerfour ul li button:hover {
-            background-color: #fff;
-            color: #000;
-        }
+}
+
+.content p {
+    line-height: 27px;
+    width: 74%;
+    padding-top: 16px;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+h5.contentDETAILS {
+    font-size: 18px;
+    font-family: poppins;
+    color: #707070;
+}
+
+.watches {
+    display: inline-block;
+    width: 59%;
+    vertical-align: top;
+}
+
+.watchimages {
+    display: flex;
+    line-height: 50px;
+}
+
+.watchfeatures img:hover {
+    stop-opacity: inherit;
+    transform: scale(2.0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: white;
+}
+
+.content p {
+    line-height: 27px;
+    width: 74%;
+    padding-top: 16px;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.mainwatch img {
+    width: 500px;
+    height: auto;
+}
+
+.watchfeatures img {
+    height: 80px;
+    width: 70px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.modelimg img {
+    width:35%;
+    
+}
+
+.watchfeatures img .img3:hover .img2 {
+    display: none;
+}
+
+.button {
+    margin-left: 136px;
+}
+
+.button .button1 {
+    padding: 8px 15px;
+    margin-right: 7px;
+    background: #fff;
+    color: #000;
+    font-weight: 900;
+    font-size: 20px;
+    border: 2px solid #000;
+    font-family: poppins;
+}
+
+.button .button1:hover {
+    background: #000;
+    color: #fff;
+}
+
+.Gallery {
+    font-size: 30px;
+    font-family: poppins;
+    margin-left: 12px;
+}
+
+.modelimg {
+    display: flex;
+    width: 100%;
+}
+
+.footermain {
+    display: flex;
+    justify-content: space-around;
+    font-family: poppins;
+    background: #000;
+    color: rgb(218, 218, 218);
+    text-align: justify;
+    line-height: 35px;
+    padding: 40px 0;
+    letter-spacing: 0.7px;
+}
+
+.footermain .footerfour ul .footeremail {
+    padding: 10px 14px;
+    border-radius: 19px;
+    border: none;
+}
+
+.footermain a {
+    color: #fff;
+}
+
+.footermain .footerfour ul li button {
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 5px 13px;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 16px;
+}
+
+.footermain .footerfour ul li button:hover {
+    background-color: #fff;
+    color: #000;
+}
