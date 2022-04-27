@@ -31,14 +31,14 @@
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            padding: 60px 0;
+            padding-bottom: 109px;
         }
         
         
 .main-class img {
     height: 500px;
     width: 500px;
-    padding-right: 0px;
+    padding-left: 19%;
     /* padding-left: 190PX; */
 }
         .bannercontent {
