@@ -39,6 +39,7 @@ a {
     height: 450px;
     width: 450px;
     padding-left: 10%;
+    padding-right: 60px;
     /* padding-left: 190PX; */
 }
 .bannercontent {
@@ -129,7 +130,7 @@ h5.contentDETAILS {
 .watchimages {
     display: flex;
     line-height: 50px;
-    padding-left: 160px;
+    padding-left: 60px;
 }
 
 .watchfeatures img:hover {
